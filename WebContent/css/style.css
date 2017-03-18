@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+html { 
+  background: url(../img/solar-panels-bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	margin:0;
+	padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main-container{
+	
+}
+
+.benefits-section{
+    width: 50%;
+    float: left;
+    background-color: white;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+.inquiry-section{
+	float: left;
+	margin-left: 30px;
+	width: 250px;
+}
+
+label{
+	width: 100px;
+	float: left;
+}
+
+input{
+	margin-bottom: 15px;
+}
+
+.disclaimer{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
